@@ -1,0 +1,60 @@
+header {
+    text-align: center;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #0d0d0d;
+}
+
+.NormalDiv {
+    text-align: center;
+}
+
+.NormalDiv span {
+    font-size:36px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.selectContainer {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+}
+
+.selectContainer img {
+    width: 150px;
+    height: 150px;
+    border-radius: 20%;
+}
+
+.selectContainer a {
+    color: white;
+    text-decoration: none;
+    padding: 32px;
+    font-size: 64px;
+}
+
+.selectContainer a:hover {
+    color: #7F7F7F;
+}
+
+.galleryContainer {
+    display: flex;
+    max-width: 930px;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+.galleryContainer img{
+    width: 300px;
+    height: 300px;
+    border-radius: 10%;
+    padding: 5px;
+}
